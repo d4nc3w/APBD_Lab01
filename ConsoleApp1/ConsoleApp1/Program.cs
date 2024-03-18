@@ -7,3 +7,18 @@ for (int i = 0; i < 10; i++)
     Console.WriteLine(i + ". Hello, " + name + "!");
 }
 
+Student student = new Student(name);
+Console.WriteLine(student.firstName);
+
+internal class Student
+{
+    public string firstName;
+
+    public Student(string firstName)
+    {
+        this.firstName = firstName;
+    }
+}
+
+
+
