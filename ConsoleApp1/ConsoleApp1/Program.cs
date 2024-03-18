@@ -24,9 +24,9 @@ public class Program
     public static int averageNum(int[] numbers)
     {
         int sum = 0;
-        for (int i = 0; i < numbers.Length; i++)
+        for (int y = 0; y < numbers.Length; y++)
         {
-            sum += numbers[i];
+            sum += numbers[y]; 
         }
         int result = sum / numbers.Length;
         return result;
